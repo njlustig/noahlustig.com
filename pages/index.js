@@ -63,7 +63,7 @@ const Home = () => {
             </Column>
             <Column>
               <ColumnHeaderText>Experience</ColumnHeaderText>
-              <BodyText>I work as a data scientist at ProKure Solutions, a chemical consumable products company based in Phoenix, Arizona.  There, I'm responsible for planning, building and maintaining various internal and customer-facing tools to extract value from big data.  Outside of my responsibilities at ProKure, I spend my time working on projects ranging from IoT, to algorithmic trading to sports handicapping.</BodyText>
+              <BodyText>My entire career has been spent in early stage startups.  During college, I joined <a style={{"color":"blue", 'fontWeight': 700}} href="https://alt36.com/">Alt36</a> shortly after they raised a seed round, and stayed on until shortly after my graduation from college, and Alt36's Series A. I currently work as a data scientist at <a style={{"color":"blue", 'fontWeight': 700}} href="https://prokuresolutions.com/">ProKure Solutions</a>, a chemical consumable products startup based in Phoenix, Arizona.  Here, I'm responsible for planning, building and maintaining various internal and customer-facing tools to organize and extract value from big data.  </BodyText>
             </Column>
           </ColsContainer>
         </ContentContainer>
