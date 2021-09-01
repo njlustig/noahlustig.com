@@ -63,7 +63,7 @@ const Home = () => {
             </Column>
             <Column>
               <ColumnHeaderText>Experience</ColumnHeaderText>
-              <BodyText>I work on software projects in AZ and it's tight af and I like it a lot i'm just typing random stuff here to see how it will loook instaead of copying lorem ipsum from the internet.</BodyText>
+              <BodyText>I work as a data scientist at ProKure Solutions, a chemical consumable products company based in Phoenix, Arizona.  There, I'm responsible for planning, building and maintaining various internal and customer-facing tools to extract value from big data.  Outside of my responsibilities at ProKure, I spend my time working on projects ranging from IoT, to algorithmic trading to sports handicapping.</BodyText>
             </Column>
           </ColsContainer>
         </ContentContainer>
