@@ -86,7 +86,7 @@ const Home = () => {
             </IconGroupContainer>
             <IconGroupContainer>
               <IconContainer><img src="/aws.png" width={150} height={150}/></IconContainer>
-              <IconText>Serverless Development</IconText>
+              <IconText>Serverless Engineering</IconText>
             </IconGroupContainer>
             <IconGroupContainer>
               <IconContainer><img src="/api.png" width={150} height={150}/></IconContainer>
@@ -102,7 +102,7 @@ const Home = () => {
             </IconGroupContainer>
             <IconGroupContainer>
               <IconContainer><img src="/devops.png" width={150} height={150}/></IconContainer>
-              <IconText>DevOps</IconText>
+              <IconText>CI/CD, Automated Testing</IconText>
             </IconGroupContainer>
           </IconBox>
         </ContentContainer>
