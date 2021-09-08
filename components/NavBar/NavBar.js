@@ -24,9 +24,9 @@ export const NavBar = () => {
                     <Button href="#projects">
                         <ButtonText>Projects</ButtonText>
                     </Button>
-                    <Button>
+                    {/* <Button>
                         <ButtonText>Contact</ButtonText>
-                    </Button>
+                    </Button> */}
                 </ButtonsBox>
             </ContentContainer>
         </Container>

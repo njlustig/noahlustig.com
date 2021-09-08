@@ -45,7 +45,7 @@ const Home = () => {
           <TextContainer>
             <TitleText color="black">Welcome to NoahLustig.com!</TitleText>
             <BodyText color="black">
-            I'm a data scientist, full stack developer and entreprenuer based in Phoenix, AZ.  Check out some of my projects below, or reach out to me here to collaborate on something new!  
+            I'm a data scientist, full stack developer and entreprenuer based in Phoenix, AZ.  Check out some of my projects below, or reach out to me to collaborate on something new!  
             </BodyText>
           </TextContainer>
         </ContentContainer>
