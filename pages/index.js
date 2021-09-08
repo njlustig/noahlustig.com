@@ -39,7 +39,7 @@ const Home = () => {
               <a href="https://www.linkedin.com/in/noahlustig/"><ContactIcon src="/linkedin.png" alt="linkedin" /></a>
               <a href="mailto:noah.j.lustig@gmail.com"><ContactIcon src="/email.png" alt="email" /></a>
               <a href="https://github.com/njlustig"><ContactIcon src="/github.png" alt="Noah Lustig's github" /></a>
-              <ContactIcon src="/cv.png" alt="Noah Lustig's resume" />
+              {/* <ContactIcon src="/cv.png" alt="Noah Lustig's resume" /> */}
             </ContactContainer>
           </ImageContainer>
           <TextContainer>
@@ -90,8 +90,8 @@ const Home = () => {
         <ProjectsContainer>
           <Card />
           <Card />
-          <Card />
-          <Card />
+          {/* <Card />
+          <Card /> */}
         </ProjectsContainer>
 
         </ContentContainer>
