@@ -39,6 +39,7 @@ export const ContentContainer = styled.div`
 
 
 export const ImageContainer = styled.div`
+    min-height: calc( 100vh - 60px );
     height: calc( 100vh - 60px );
     display: flex; 
     flex-direction: column;
@@ -46,6 +47,7 @@ export const ImageContainer = styled.div`
 `;
 
 export const ContactContainer = styled.div`
+    min-width: 200px;    
     width: 200px;
     display: flex;
     flex-direction: row;
@@ -54,6 +56,8 @@ export const ContactContainer = styled.div`
 `;
 
 export const ContactIcon = styled.img`
+    min-width: 40px;
+    min-height: 40px;
     width: 40px;
     height: 40px;
     margin: 5px;
@@ -70,7 +74,9 @@ export const CaptionText = styled.p`
 `;
 
 export const TextContainer = styled.div`
+    min-width: 60%;
     width: 60%;
+    min-height: calc( 100vh - 60px );
     height: calc( 100vh - 60px );
     display: flex; 
     flex-direction: column;
@@ -96,6 +102,7 @@ export const BodyText = styled.p`
 
 
 export const IconBox = styled.div`
+    min-width: 100%;
     width: 100%;
     margin: 0 auto;
     padding: 0;
@@ -107,8 +114,9 @@ export const IconBox = styled.div`
 `;
 
 export const ProjectsContainer = styled.div`
+    min-width: 100%;
     width: 100%;
-    // height: 500px;
+    min-height: 500px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -118,6 +126,7 @@ export const ProjectsContainer = styled.div`
 `;
 
 export const ColsContainer = styled.div`
+    min-width: 1000px;
     width: 1000px;
     margin: 0;
     padding: 0;
@@ -127,7 +136,9 @@ export const ColsContainer = styled.div`
 `;
 
 export const Column = styled.div`
+    min-width: 400px;
     width: 400px;
+    min-height: 400px;
     height: 400px;
     margin: 50px 0;
     padding: 0;
