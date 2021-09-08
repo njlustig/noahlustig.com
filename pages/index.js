@@ -7,10 +7,7 @@ import {
   TitleText,
   BodyText,
   Section,
-  IconGroupContainer,
   IconBox,
-  IconContainer,
-  IconText,
   ProjectsContainer,
   ContactContainer,
   ContactIcon,
@@ -36,9 +33,9 @@ const Home = () => {
             <CaptionText color="black">Data Scientist</CaptionText>
             <CaptionText bold color="black">ProKure Solutions</CaptionText>
             <ContactContainer>
-              <a href="https://www.linkedin.com/in/noahlustig/"><ContactIcon src="/linkedin.png" alt="linkedin" /></a>
-              <a href="mailto:noah.j.lustig@gmail.com"><ContactIcon src="/email.png" alt="email" /></a>
-              <a href="https://github.com/njlustig"><ContactIcon src="/github.png" alt="Noah Lustig's github" /></a>
+              <a href="https://www.linkedin.com/in/noahlustig/"><ContactIcon width="40" height="40" src="/linkedin.png" alt="linkedin" /></a>
+              <a href="mailto:noah.j.lustig@gmail.com"><ContactIcon width="40" height="40" src="/email.png" alt="email" /></a>
+              <a href="https://github.com/njlustig"><ContactIcon width="40" height="40" src="/github.png" alt="Noah Lustig's github" /></a>
               {/* <ContactIcon src="/cv.png" alt="Noah Lustig's resume" /> */}
             </ContactContainer>
           </ImageContainer>
@@ -57,9 +54,9 @@ const Home = () => {
             <Column>
               <ColumnHeaderText>Education</ColumnHeaderText>
               <ul>
-                <GradIcon><BodyText>Bachelor of Science-Economics<br/>Arizona State University, 2018</BodyText></GradIcon>
-                <GradIcon><BodyText>Minor-Mathematics<br/>Arizona State University, 2018</BodyText></GradIcon>
-                <GradIcon><BodyText>Certificate-Applied Business Data Analytics <br/>Arizona State University, 2018</BodyText></GradIcon>
+                <GradIcon width="40" height="40"><BodyText>Bachelor of Science-Economics<br/>Arizona State University, 2018</BodyText></GradIcon>
+                <GradIcon width="40" height="40"><BodyText>Minor-Mathematics<br/>Arizona State University, 2018</BodyText></GradIcon>
+                <GradIcon width="40" height="40"><BodyText>Certificate-Applied Business Data Analytics <br/>Arizona State University, 2018</BodyText></GradIcon>
               </ul>
             </Column>
             <Column>

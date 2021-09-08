@@ -8,7 +8,7 @@ import {
 const Icon = ({ src, text }) => {
     return (
         <IconGroupContainer>
-              <IconContainer><img src={src} width={150} height={150}/></IconContainer>
+              <IconContainer><img src={src} width="150" height="150"/></IconContainer>
               <IconText>{text}</IconText>
         </IconGroupContainer>
     );
