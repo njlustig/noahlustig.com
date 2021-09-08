@@ -51,6 +51,7 @@ export const BodyText = styled.p`
     font-size: 12px;
     font-weight: 300px;
     margin: 0;
-    color: ${colors.black}
+    color: ${colors.black};
+    text-align: center;
 `;
 

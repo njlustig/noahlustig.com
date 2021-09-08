@@ -3,14 +3,14 @@ import Button from '@material-ui/core/Button';
 import { TitleText, BodyText, CardContainer, HeaderContainer, ContentContainer, ActionsContainer} from './Card.styles';
 import { StylesProvider } from '@material-ui/core/styles';
 
-export default function SimpleCard() {
+const Card = ({ title, description }) => {
 
   return (
     <StylesProvider injectFirst>
       <CardContainer raised>
-        <HeaderContainer disableTypography={true} title={<TitleText>Project Title</TitleText>}/>
+        <HeaderContainer disableTypography={true} title={<TitleText>{title}</TitleText>}/>
         <ContentContainer>
-          <BodyText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</BodyText>
+          <BodyText>{description}</BodyText>
         </ContentContainer>
         <ActionsContainer>
           <Button variant="contained">View Code</Button>
@@ -18,4 +18,6 @@ export default function SimpleCard() {
       </CardContainer>
     </StylesProvider>
   );
-}
+};
+
+export default Card;

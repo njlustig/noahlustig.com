@@ -88,8 +88,8 @@ const Home = () => {
         <ContentContainer color="darkgrey" col even>
         <TitleText center>Projects</TitleText>
         <ProjectsContainer>
-          <Card />
-          <Card />
+          <Card title="Personal Website" description="The source code for the site you're on right now!  Have a poke around."/>
+          <Card title="Car Insurance Classifier" description="A Jupyter Notebook that builds and evaluates several classifiers against a car insurance claim data set from Kaggle." />
           {/* <Card />
           <Card /> */}
         </ProjectsContainer>
