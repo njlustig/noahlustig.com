@@ -22,6 +22,7 @@ import {
 import Avatar from '../components/Avatar/Avatar';
 import NavBar from '../components/NavBar/NavBar';
 import Card from '../components/Card/Card';
+import Icon from '../components/Icon/Icon';
 
 
 const Home = () => {
@@ -72,38 +73,14 @@ const Home = () => {
         <ContentContainer center col>
           <TitleText center>Core Competencies</TitleText>
           <IconBox>
-            <IconGroupContainer>
-              <IconContainer><img src="/etl.png" width={150} height={150}/></IconContainer>
-              <IconText>Extract, Transform & Load (ETL) Pipelines</IconText>
-            </IconGroupContainer>
-            <IconGroupContainer>
-              <IconContainer><img src="/python.png" width={150} height={150}/></IconContainer>
-              <IconText>Pandas, NumPy, sklearn, PyTorch, Plotly, MatPlotLib </IconText>
-            </IconGroupContainer>
-            <IconGroupContainer>
-              <IconContainer><img src="/database.png" width={150} height={150}/></IconContainer>
-              <IconText>SQL and NoSQL Schema Design</IconText>
-            </IconGroupContainer>
-            <IconGroupContainer>
-              <IconContainer><img src="/aws.png" width={150} height={150}/></IconContainer>
-              <IconText>Serverless Engineering</IconText>
-            </IconGroupContainer>
-            <IconGroupContainer>
-              <IconContainer><img src="/api.png" width={150} height={150}/></IconContainer>
-              <IconText>Rest & GraphQL API Design</IconText>
-            </IconGroupContainer>
-            <IconGroupContainer>
-              <IconContainer><img src="/laptop.png" width={150} height={150}/></IconContainer>
-              <IconText>Full Stack Development</IconText>
-            </IconGroupContainer>
-            <IconGroupContainer>
-              <IconContainer><img src="/iphone.png" width={150} height={150}/></IconContainer>
-              <IconText>Mobile Development</IconText>
-            </IconGroupContainer>
-            <IconGroupContainer>
-              <IconContainer><img src="/devops.png" width={150} height={150}/></IconContainer>
-              <IconText>CI/CD, Automated Testing</IconText>
-            </IconGroupContainer>
+            <Icon src="/etl.png" text="Extract, Transform & Load (ETL) Pipelines" />
+            <Icon src="/python.png" text="Pandas, NumPy, sklearn, PyTorch, Plotly, MatPlotLib" />
+            <Icon src="/database.png" text="SQL and NoSQL Schema Design" />
+            <Icon src="/aws.png" text="Serverless Engineering" />
+            <Icon src="/api.png" text="REST & GraphQL API Design" />
+            <Icon src="/laptop.png" text="Full Stack Development" />
+            <Icon src="/iphone.png" text="Mobile Development" />
+            <Icon src="devops.png" text="CI/CD, Automated Testing" />
           </IconBox>
         </ContentContainer>
       </Section>
