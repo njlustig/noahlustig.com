@@ -5,7 +5,7 @@ import { CardActions, CardContent, CardHeader, CardMedia } from '@material-ui/co
 
 
 export const CardContainer = styled(Card)`
-  width: 350px;
+  width: 275px;
   height: 200px;
   margin: 20px 10px;
   padding: 0;

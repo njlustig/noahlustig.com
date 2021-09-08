@@ -116,7 +116,7 @@ export const IconBox = styled.div`
 export const ProjectsContainer = styled.div`
     min-width: 100%;
     width: 100%;
-    min-height: 500px;
+    min-height: 250px;
     margin: 0;
     padding: 0;
     display: flex;
