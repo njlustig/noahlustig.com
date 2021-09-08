@@ -1,4 +1,11 @@
-## Getting Started
+# About This Project
+
+This is Noah Lustig's personal portfolio website.  It's a vanilla React/Next.js statically-generated site, hosted in an AWS S3 bucket.
+
+You can see the live version at [http://noahlustig.com](http://noahlustig.com)
+
+
+### Getting Started
 
 Install dependencies:
 `npm i`
@@ -13,8 +20,4 @@ To build a production build:
 
 
 
-## About This Project
 
-This is Noah Lustig's personal portfolio website.  It's a vanilla React/Next.js statically-generated site, hosted in AWS S3.
-
-You can see the live version at [http://noahlustig.com](http://noahlustig.com)
