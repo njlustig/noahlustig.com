@@ -3,7 +3,7 @@ import Button from '@material-ui/core/Button';
 import { TitleText, BodyText, CardContainer, HeaderContainer, ContentContainer, ActionsContainer} from './Card.styles';
 import { StylesProvider } from '@material-ui/core/styles';
 
-const Card = ({ title, description }) => {
+const Card = ({ title, description, repolink }) => {
 
   return (
     <StylesProvider injectFirst>
@@ -13,7 +13,7 @@ const Card = ({ title, description }) => {
           <BodyText>{description}</BodyText>
         </ContentContainer>
         <ActionsContainer>
-          <Button variant="contained">View Code</Button>
+          <Button href={repolink} variant="contained">View Code</Button>
         </ActionsContainer>
       </CardContainer>
     </StylesProvider>
